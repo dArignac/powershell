@@ -12,6 +12,7 @@ function gicm {
   )
   git commit -m $message
 }
+function gipu { git push }
 function gis { git status }
 function gpso { git push origin }
 
