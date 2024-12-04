@@ -1,4 +1,5 @@
 # Docker
+function dcc { docker ps -aq -f "status=exited" | ForEach-Object { docker rm $_ } }
 function dcp { docker-compose @args }
 function dps { docker ps -a }
 
