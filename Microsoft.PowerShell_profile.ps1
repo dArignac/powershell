@@ -1,11 +1,11 @@
 # Docker
+function dcp { docker-compose @args }
 function dps { docker ps -a }
 
 
 # Git
 function gb { git branch -a }
 function gicm {
-  # different than in zsh
   param(
     [string]$message
   )
