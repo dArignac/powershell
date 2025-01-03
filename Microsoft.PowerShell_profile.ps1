@@ -4,8 +4,8 @@ function dcp { docker-compose @args }
 function dps { docker ps -a }
 function di { docker images }
 
-
 # Git
+function g2m { git checkout main }
 function gb { git branch -a }
 function gicm {
   param(
