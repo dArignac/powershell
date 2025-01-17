@@ -5,6 +5,7 @@ function dps { docker ps -a }
 function di { docker images }
 
 # Git
+function ga { git add . }
 function g2m { git checkout main }
 function gb { git branch -a }
 function gicm {
