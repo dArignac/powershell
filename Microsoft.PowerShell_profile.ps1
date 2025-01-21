@@ -17,6 +17,7 @@ function gicm {
 function gipu { git push }
 function gis { git status }
 function gpso { git push origin }
+function gpu { git pull }
 
 
 
