@@ -6,7 +6,10 @@ function di { docker images }
 
 # Git
 function ga { git add . }
-function g2m { git checkout main }
+function g2m {
+  git checkout main
+  git pull
+}
 function gb { git branch -a }
 function gicm {
   param(
